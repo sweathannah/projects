@@ -1,0 +1,78 @@
+body{
+  font-size: 14px;
+  font-family: Montserrat,sans-serif;
+  font-weight: 500; 
+  background-color:hsl(30, 38%, 92%);
+  position: relative; 
+}
+
+main{
+    position: relative;
+}
+
+main>img{
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    border-radius: 10px 0 0 10px;
+}
+
+section{
+    position: relative;
+    top: 100px;
+    left: 634px;
+    background-color:hsl(0, 0%, 100%);
+    padding: 30px;
+    height: 440px;
+    border-radius: 0 10px 10px 0;
+    width: 270px;
+}
+
+h1{
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+h2{
+    color:hsl(212, 21%, 14%);
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 30px;
+    width: 200px;
+    line-height: 30px;
+}
+
+p{
+    width: 210px;
+    line-height: 22px;
+}
+
+h1,p,h4{
+    color:hsl(228, 12%, 48%);
+}
+
+h3{
+    color:hsl(158, 36%, 37%);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h4{
+    text-decoration: line-through;
+    position: absolute;
+    top: 305px;
+    right: 120px;
+    
+}
+
+button{
+    background-color:  hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 7px;
+    width: 250px;
+    height: 45px;
+}
+ 
