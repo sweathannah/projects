@@ -36,3 +36,42 @@ main{
     padding: 30px;
     border-radius: 0 5px 5px 0;
 }
+
+.perfume,.solar{
+    color:hsl(228, 12%, 48%);
+}
+
+.pricing{
+    align-items:  center ;
+    display: flex;
+    gap: 1rem;
+}
+
+.price1{
+    color:hsl(158, 36%, 37%);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.button-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(158, 36%, 37%);
+    padding:5px 0px 5px 0 ;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.button-wrapper img{
+    width: 1rem;
+    height: 2rem;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    color:white;
+    cursor:pointer;
+}
+
